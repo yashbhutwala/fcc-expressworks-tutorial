@@ -7,9 +7,7 @@ and produces a SHA-1 hash of the current date combined with the ID from the URL.
 
 For instance, if the server receives
 
-```
-PUT /message/526aa677a8ceb64569c9d4fb
-```
+    PUT /message/526aa677a8ceb64569c9d4fb
 
 it will respond with a hash of the current date (as a string) and the ID.
 
@@ -22,7 +20,7 @@ require('crypto')
   .digest('hex')
 ```
 
------------------------------
+* * *
 
 ## HINTS
 
@@ -58,4 +56,4 @@ app.get('/message/:id', function (req, res, next) {
   next()
 })
 
-Videos: http://bit.ly/1jW1sBf.
+Videos: <http://bit.ly/1jW1sBf>.

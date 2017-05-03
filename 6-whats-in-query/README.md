@@ -12,7 +12,7 @@ In Express.js, to extract query string parameters, we can use (inside the reques
 req.query.NAME
 ```
 
------------------------------
+* * *
 
 ## HINTS
 
@@ -24,4 +24,4 @@ To output JSON we can use:
 res.send(object)
 ```
 
-Videos: http://bit.ly/1jW1sBf.
+Videos: <http://bit.ly/1jW1sBf>.

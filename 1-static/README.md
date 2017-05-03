@@ -20,7 +20,7 @@ The `index.html` file is provided and usable via the path supplied by
 </html>
 ```
 
------------------------------
+* * *
 
 ## HINTS
 
@@ -36,4 +36,4 @@ For this exercise {appname} will pass you the path in the CLI argument `process.
 app.use(express.static(process.argv[3] || path.join(__dirname, 'public')))
 ```
 
-Videos: http://bit.ly/1jW1sBf.
+Videos: <http://bit.ly/1jW1sBf>.

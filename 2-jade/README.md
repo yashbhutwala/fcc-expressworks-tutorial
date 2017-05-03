@@ -7,7 +7,7 @@ The view should show the current date using 'new Date.toDateString()'.
 We use 'toDateString()' to simply return the date in a human-readable format
 without the time.
 
------------------------------
+* * *
 
 ## HINTS
 
@@ -46,7 +46,7 @@ res.render('index', {date: new Date().toDateString()})
 We use `toDateString()` to simply return the date in a human-readable format
 without the time.
 
---------------------------------
+* * *
 
 ## NOTE
 
@@ -57,4 +57,4 @@ Again, the port to use is passed by {appname} to the application as `process.arg
 
 If you receive `Error: Cannot find module 'pug'`, it is because Express is looking for Pug relative to its path. You can fix this by running `npm install pug`.
 
-Videos: http://bit.ly/1jW1sBf.
+Videos: <http://bit.ly/1jW1sBf>.

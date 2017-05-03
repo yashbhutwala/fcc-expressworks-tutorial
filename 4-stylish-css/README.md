@@ -30,7 +30,7 @@ The `index.html` file:
 </html>
 ```
 
------------------------------
+* * *
 
 ## HINTS
 
@@ -61,4 +61,4 @@ dependency:
 $ npm install stylus
 ```
 
-Videos: http://bit.ly/1jW1sBf.
+Videos: <http://bit.ly/1jW1sBf>.

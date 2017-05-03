@@ -28,8 +28,7 @@ var bodyparser = require('body-parser')
 app.use(bodyparser.urlencoded({extended: false}))
 ```
 
-
------------------------------
+* * *
 
 ## HINTS
 
@@ -43,15 +42,15 @@ Extended set to true (qs) or false (querystring) determines the parser module.
 
 Read more about Connect middleware here:
 
-  https://github.com/senchalabs/connect#middleware
+  <https://github.com/senchalabs/connect#middleware>
 
 The documentation of the body-parser module can be found here:
 
-  https://github.com/expressjs/body-parser
+  <https://github.com/expressjs/body-parser>
 
-Videos: http://bit.ly/1jW1sBf.
+Videos: <http://bit.ly/1jW1sBf>.
 
------------------------------
+* * *
 
 ## NOTE
 

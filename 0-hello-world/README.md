@@ -9,11 +9,9 @@ For Windows, use "taskkill /IM node.exe" in Command Prompt.
 
 Don't forget to install the Express module if you haven't already.
 
-```
-$ npm install express --save
-```
+    $ npm install express --save
 
------------------------------
+* * *
 
 ## HINTS
 
@@ -35,4 +33,4 @@ In your solution, please use `process.argv[2]` instead of a fixed port number:
 app.listen(process.argv[2])
 ```
 
-Videos: http://bit.ly/1jW1sBf.
+Videos: <http://bit.ly/1jW1sBf>.
